@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Rainbow",
+        "repositoryURL": "https://github.com/onevcat/Rainbow",
+        "state": {
+          "branch": null,
+          "revision": "7c3dad0e918534c6d19dd1048bde734c246d05fe",
+          "version": "4.0.0"
+        }
+      },
+      {
+        "package": "Swog",
+        "repositoryURL": "https://github.com/EricRabil/Swog",
+        "state": {
+          "branch": null,
+          "revision": "6e60c30ba2eeb9cd10dae1d585c70f20118ac759",
+          "version": "1.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
