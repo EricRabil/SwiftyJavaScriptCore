@@ -34,7 +34,7 @@ public class JSPromise: NSObject, JSPromiseExports {
         return self.next!
     }
     
-    func fail(error: String) {
+    public func fail(error: Any) {
         if let reject = reject {
             reject.call(withArguments: [error])
         } else if let next = next {
