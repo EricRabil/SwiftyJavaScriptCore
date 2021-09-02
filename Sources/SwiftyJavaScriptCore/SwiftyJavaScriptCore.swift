@@ -18,7 +18,7 @@ public func JSContextCreateBaseContext() -> JSContext {
     context["Promise"] = JSPromise.self
     
     context.exceptionHandler = { context, exception in
-        CLFault("BarcelonaJS", "Unhandled exception: %@", exception?.inspectionString ?? "(nil)")
+        CLFault("BarcelonaJS", "Unhandled exception: %@", exception?.description ?? "(nil)")
     }
     
     return context
